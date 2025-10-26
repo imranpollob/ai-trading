@@ -6,9 +6,6 @@ __pycache__/
 # SQLite database
 accounts.db
 
-# Environment variables
-.env
-
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
@@ -21,7 +18,7 @@ Thumbs.db
 
 # Python virtual environments
 venv/
-.env/
+.venv/
 
 # ---- Standard Python ignores ----
 # Byte-compiled / optimized / DLL files
@@ -144,8 +141,6 @@ venv.bak/
 Thumbs.db
 
 # Local credentials and keys
-.env.local
-.env.*
 credentials.json
 key.pem
 id_rsa
